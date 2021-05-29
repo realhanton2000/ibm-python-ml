@@ -46,4 +46,4 @@ print(f1_score(y_test, yhat, average='weighted'))
 
 from sklearn.metrics import jaccard_score
 print('jaccard_score')
-print(jaccard_score(y_test, yhat,pos_label=2))
+print(jaccard_score(y_test, yhat,pos_label=2)) 
